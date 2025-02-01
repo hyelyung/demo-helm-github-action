@@ -6,7 +6,7 @@ helmVersion=helm-v3.0.0-darwin-amd64.tar.gz
 
 #download helm version
 wget https://get.helm.sh/$helmVersion
-tar xvzf $helmVersion
+tar -xvzf $helmVersion
 
 #mv helm3 binary to local tmp folder
 if [[ -e /usr/local/bin/tmp ]] ; then echo "tmp folder already exists" ; else mkdir /usr/local/bin/tmp ; fi
