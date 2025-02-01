@@ -19,8 +19,8 @@ export HELM_HOME=/usr/local/bin/tmp/helm3
 h3=/usr/local/bin/tmp/helm
 
 #add alias to .zshrc or .bashrc
-echo "alias h3=/usr/local/bin/tmp/helm" >> ~/.zshrc
-# echo "alias h3=/usr/local/bin/tmp/helm" >> ~/.bashrc
+#echo "alias h3=/usr/local/bin/tmp/helm" >> ~/.zshrc
+echo "alias h3=/usr/local/bin/tmp/helm" >> ~/.bashrc
 
 # cleanup
 rm -rf $helmVersion
